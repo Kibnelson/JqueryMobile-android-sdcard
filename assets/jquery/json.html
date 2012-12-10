@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>New Claim</title> 
+
+	<link rel="stylesheet" href="js/jquery.mobile-1.0a2.min.css" />
+	<link rel="stylesheet" href="css/colors.css">
+  <script src="js/jquery-1.4.4.min.js"></script>
+  <script src="js/jquery.mobile-1.0a2.min.js"></script>
+  
+  <script src="js/jquery.dform-1.0.0.min.js">
+  
+  
+  
+  
+  </script>
+  
+  
+  
+
+
+</head> 
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+	
+	
+});
+
+function showAndroidJson() {
+	var b=Android.showJson();
+	$('div p').text("Data: "+b);
+
+	
+	
+   
+}
+
+</script>
+
+<body> 
+
+<!-- Page starts here -->
+<div data-role="page" data-theme="b" id="page1">
+
+	<div data-role="header" id="hdrMain" name="hdrMain" data-nobackbtn="true">
+		<h1>Json Form from Sdcard</h1>
+	</div>
+
+	<div data-role="content" >	
+	
+	 
+	 
+	 
+	
+
+	 
+	 <input type="button" value="Get Json Data" onClick="showAndroidJson()" />
+	 
+	<div id="hello">
+				<p></p>
+			</div>
+	
+    
+	</div><!-- contentMain -->
+  
+	<div data-role="footer" id="ftrMain" name="ftrMain"></div>
+	
+  
+  
+	
+	
+	
+	<script>
+	 
+   
+	//alert(JSON.parse('forms/registraionForm.json'));
+	// $("#myform").buildForm('forms/registraionForm.json');
+
+    
+//JSInterface.playVideo('file:///sdcard/test.3gp');
+ //$("#myform").dform('forms/registrationForm.json', function(data) {
+   //       this //-> Generated $('#myform')
+     //     data //-> data from path/to/form.json
+       // });
+    
+
+  </script>
+</div> <!-- page1 -->
+
+
+<!-- Page ends here -->
+</body>
+
+</html>

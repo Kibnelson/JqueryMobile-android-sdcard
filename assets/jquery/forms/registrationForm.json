@@ -1,0 +1,348 @@
+{
+    "action": "index.html",
+    "method": "POST",
+    "type": "table",
+    "id": "my-div",
+    "elements": [
+        {
+            "type": "div",
+            "class": "ui-widget-content ui-corner-all",
+            "style": "padding: 10px",
+            "elements": [
+                {
+                    "type": "tr",
+                    "elements": [
+                        {
+                            "type": "label",
+                            "html": "Registration Form Components  Demo form"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "class": "ui-widget-content ui-corner-all",
+            "style": "padding: 10px",
+            "elements": [
+                {
+                    "type": "tr",
+                    "elements": [
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "patient.given_name#6",
+                                    "caption": "Patient first name",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "patient.middle_name#6",
+                                    "caption": "Patient middle name",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "patient.family_name#6",
+                                    "caption": "Patient family name",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "name": "encounter.encounter_datetime|4#4",
+                                    "caption": "Date of birth",
+                                    "datepicker": {
+                                        "showOn": "button"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "radiobuttons",
+                                    "caption": "Gender",
+                                    "name": "patient.sex#10",
+                                    "options": {
+                                        "MALE|6226": "MALE",
+                                        "FEMALE|6227": "FEMALE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "patient.amrs_universal_Id#6",
+                                    "caption": "AMRS Universal ID",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "encounter.location_Id#6",
+                                    "caption": "Location",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tr",
+                    "elements": [
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "person.address#6",
+                                    "caption": "section/homestead",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "person.address#6",
+                                    "caption": "estate/nearest centre",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "person.address#6",
+                                    "caption": "town/village",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "person.address#6",
+                                    "caption": "sublocation",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "person.address#6",
+                                    "caption": "location",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "person.address#6",
+                                    "caption": "district",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "name": "patient.contact_phone_number#6",
+                                    "caption": "Phone number",
+                                    "type": "text",
+                                    "validate": {
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "class": "ui-widget-content ui-corner-all",
+            "style": "padding: 10px",
+            "elements": [
+                {
+                    "type": "label",
+                    "html": "Patient Observation"
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "class": "ui-widget-content ui-corner-all",
+            "style": "padding: 10px",
+            "elements": [
+                {
+                    "type": "tr",
+                    "elements": [
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "name": "VITAL SIGNS|1114#2",
+                                    "caption": "Ht:",
+                                    "id": "HEIGHT (CM)|5090"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "name": "VITAL SIGNS|1114#2",
+                                    "caption": "Wt:",
+                                    "id": "WEIGHT (KG)|5089"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "checkboxes",
+                                    "name": "LEARNING ABOUT US|8250#10",
+                                    "caption": "How did you hear about us",
+                                    "options": {
+                                        "Not applicable|1175": "Not applicable",
+                                        "RADIO|6391": "RADIO",
+                                        "Newspaper|8249": "Newspaper",
+                                        "Other (specify)|5622": "Other (specify)"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "NON-CODED|IndicationB#10",
+                                    "caption": "Other",
+                                    "id": ""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "radiobuttons",
+                                    "name": "Did you breast feed your children|8187#7",
+                                    "caption": "Did you breast feed kids",
+                                    "options": {
+                                        "YES|1065": "Yes",
+                                        "No|1066": "No"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "id": "nextvisit",
+                                    "name": "nextVisitDate|5096#5",
+                                    "caption": "Next visit date",
+                                    "datepicker": {
+                                        "showOn": "button"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "td",
+                            "elements": [
+                                {
+                                    "type": "td",
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "name": "encounter.provider_id",
+                                            "caption": "Form filled by",
+                                            "id": "prescriber"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "class": "ui-widget-content ui-corner-all",
+            "style": "padding: 10px",
+            "elements": [
+                {
+                    "type": "submit",
+                    "class": "ui-widget-content ui-corner-all",
+                    "style": "padding: 15px",
+                    "value": "Save"
+                }
+            ]
+        }
+    ]
+}
